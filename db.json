@@ -20,6 +20,13 @@
       "role": "nurse",
       "ward": "ICU-North",
       "avatar": "https://i.pravatar.cc/150?img=53"
+    },
+    {
+      "id": "u-4",
+      "name": "Supervisor Sarah Chen",
+      "role": "supervisor",
+      "ward": "ICU-All",
+      "avatar": "https://i.pravatar.cc/150?img=44"
     }
   ],
   "patients": [

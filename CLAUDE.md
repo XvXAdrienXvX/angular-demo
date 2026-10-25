@@ -24,6 +24,7 @@ Angular 21 standalone application (no NgModules), freshly scaffolded:
 - Static assets live in `public/` and are copied to the build output root.
 - Component selector prefix is `app`. TypeScript is strict, with Angular `strictTemplates`, `strictInjectionParameters`, and `strictInputAccessModifiers` enabled.
 - File naming follows the Angular 20+ convention without type suffixes (`app.ts`, not `app.component.ts`); components use signals for state.
+- Use ESlint strict rule for using types instead of interface for models
 
 The `angular-developer` skill (vendored under `.agents/skills/`) contains Angular best-practice guidance — load it when generating Angular code.
 

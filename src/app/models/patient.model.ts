@@ -1,1 +1,1 @@
-export interface Patient {}
+export type Patient = {}
