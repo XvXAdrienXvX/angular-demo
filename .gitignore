@@ -43,9 +43,12 @@ __screenshots__/
 .DS_Store
 Thumbs.db
 
-# Claude & AI Assistant Configurations
-CLAUDE.md
-.claude/
-.skills/
+# --- Claude & AI Configs ---
+# Allow the main lockfile and workspace instructions
+!.skill-lock.json
+!.claude/CLAUDE.md
+!.claude/specs/
+
+# Ignore agent runtimes and specific skill modules
 .agents/
-skills-lock.json
+skills/
