@@ -48,7 +48,9 @@ Thumbs.db
 !.skill-lock.json
 !.claude/CLAUDE.md
 !.claude/specs/
+!.skills/scaffold-min.md
 
 # Ignore agent runtimes and specific skill modules
 .agents/
-skills/
+.skills/angular-developer/
+.skills/angular-new-app/

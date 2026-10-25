@@ -26,3 +26,12 @@ Angular 21 standalone application (no NgModules), freshly scaffolded:
 - File naming follows the Angular 20+ convention without type suffixes (`app.ts`, not `app.component.ts`); components use signals for state.
 
 The `angular-developer` skill (vendored under `.agents/skills/`) contains Angular best-practice guidance — load it when generating Angular code.
+
+# Project Instructions
+
+## Custom Command: /scaffold-min
+When the user types `/scaffold-min` or asks to scaffold the project, act as an expert Angular CLI / Scaffold assistant and generate ONLY the directory structure and minimal boilerplate placeholder files:
+- NO business logic or feature code.
+- NO route configuration in `app.routes.ts` (leave as `[]`).
+- Modern Standalone Components only.
+- NO separate CSS files (Tailwind CSS is used).
